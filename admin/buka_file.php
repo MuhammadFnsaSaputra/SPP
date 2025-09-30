@@ -58,9 +58,9 @@ if(isset($_GET['open'])) {
             include "edit_kelas.php"; break;
 
         case 'data_siswa' :
-            if(!file_exists ("data_siswa.php")) die ("File tidak ada !");
-            include "data_siswa.php"; break;
-
+            if(!file_exists ("data_siswa_c.php")) die ("File tidak ada !");
+            include "data_siswa_c.php"; break;
+            
         case 'tambah_siswa' :
             if(!file_exists ("tambah_siswa.php")) die ("File tidak ada !");
             include "tambah_siswa.php"; break;
