@@ -16,7 +16,7 @@ if(isset($_POST['btnSimpan'])){
         $pesanEror[] = "Data <b>NAMA KELAS</b> tidak boleh kosong !";
     }
     if (trim($kompetensi_keahlian)=="") {
-        $pesanEror[] = "Data <b>KOMPETENSI KEAHLIAN</b> tidak boleh kosong !"
+        $pesanEror[] = "Data <b>KOMPETENSI KEAHLIAN</b> tidak boleh kosong !";
     }
 
 //Menampilkan Pesan Eror dari Form
